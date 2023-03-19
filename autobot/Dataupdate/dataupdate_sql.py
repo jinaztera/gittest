@@ -17,7 +17,8 @@ binance = ccxt.binance(config={
     }
 })
 
-jongmok= []
+
+jongmok = ['BTC']
 
 markets = binance.load_markets()
 for market in markets.keys():
