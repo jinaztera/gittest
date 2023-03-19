@@ -1,0 +1,19 @@
+{
+    "tistory": {
+        "status": "200",
+        "item": {
+            "url": "alphabot",
+            "secondaryUrl": "",
+            "categories": [
+                {
+                    "id": "1073539",
+                    "name": "매매내역",
+                    "parent": "",
+                    "label": "매매내역",
+                    "entries": "0",
+                    "entriesInLogin": "2"
+                }
+            ]
+        }
+    }
+}

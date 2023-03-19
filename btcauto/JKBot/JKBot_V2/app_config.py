@@ -1,0 +1,2 @@
+access_token = '44e41f71379970d962ef7e6c89554d4f_964b9d7af376a84cda8a191d75aea4bf'
+app_id = 'a89a65c5866a1b43e51d107c4fb2ef50'

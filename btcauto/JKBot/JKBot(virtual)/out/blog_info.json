@@ -1,0 +1,33 @@
+{
+    "tistory": {
+        "status": "200",
+        "item": {
+            "id": "strads@daum.net",
+            "userId": "5257234",
+            "blogs": [
+                {
+                    "name": "alphabot",
+                    "url": "https://alphabot.tistory.com",
+                    "secondaryUrl": "",
+                    "nickname": "alphabot",
+                    "title": "alpha 시스템 트레이딩",
+                    "description": "",
+                    "default": "Y",
+                    "blogIconUrl": "https://t1.daumcdn.net/tistory_admin/assets/blog/20220118181623/blogs/518/5189197/index.gif?_version_=20220118181623",
+                    "faviconUrl": "https://t1.daumcdn.net/tistory_admin/assets/blog/20220118181623/blogs/518/5189197/index.ico?_version_=20220118181623",
+                    "profileThumbnailImageUrl": "",
+                    "profileImageUrl": "",
+                    "role": "소유자",
+                    "blogId": "5189197",
+                    "isEmpty": "false",
+                    "statistics": {
+                        "post": "5",
+                        "comment": "0",
+                        "trackback": "0",
+                        "guestbook": "1"
+                    }
+                }
+            ]
+        }
+    }
+}
