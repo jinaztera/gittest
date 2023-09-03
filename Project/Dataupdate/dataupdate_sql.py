@@ -3,14 +3,14 @@ import ccxt
 import pymysql
 from sqlalchemy import create_engine
 
-with open("../api(JKBOT).txt") as f:
-    lines = f.readlines()
-    api_key = lines[0].strip()
-    secret = lines[1].strip()
+# with open("../api(JKBOT).txt") as f:
+#     lines = f.readlines()
+#     api_key = lines[0].strip()
+#     secret = lines[1].strip()
 
 binance = ccxt.binance(config={
-    'apiKey': api_key, #"XTpKrQGSk3GhXzqiEV4OfwGJzmTVcLh8dKGwHo4aQBH4p0mOqPDpIsxdh95tjGVf",
-    'secret': secret, #"A0eqZGEWHsyL3NMM6WuDrucIanr7A2YZAnrwXVPhXpf2WGauIANwa5zsoNeNt0hs",
+    'apiKey': 'GCgiv4vJVqgTLTfKGOWcg00489WyxOWrTFxg5KdiBGLKlyJvhd2SZAQUAV5J0aOB',
+    'secret': 'M6B6MkZNQxUqtLptdh9et948fw0PDlzATYLTVtxoT5tni1WPA1H6kCZMmPu2vqya',
     'enableRateLimit' : True,
     'options': {
         'defaultType': 'future'
@@ -35,7 +35,7 @@ def md_connect(user, password, db, host, port=3306):
 engine = md_connect('root', '1234', database, 'localhost')
 i=0
 for symbol in jongmok:
-
+    print(symbol)
     btc_ohlcv = binance.fetch_ohlcv(symbol=symbol, timeframe='1d', since=None, limit=3000)
 
     df = pd.DataFrame(data=btc_ohlcv, columns=["datetime", "open", "high", "low", "close", "volume"])
